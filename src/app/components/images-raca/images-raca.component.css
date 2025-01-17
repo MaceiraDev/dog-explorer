@@ -1,0 +1,49 @@
+.card-image img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.zoom-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.zoom-content {
+  text-align: center;
+}
+
+.zoomed-image {
+  max-width: 100%;
+  max-height: 100%;
+  border: 2px solid hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l)) !important;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.image {
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.image:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 1023px) {
+  .container {
+    padding: 1rem;
+  }
+}

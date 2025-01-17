@@ -1,0 +1,13 @@
+.navbar-item {
+  transition: all 0.5s;
+  color: #fff;
+}
+
+.navbar-item:hover {
+  color: hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l)) !important;
+}
+@media (max-width: 1023px) {
+  .navbar-start {
+    text-align: center;
+  }
+}

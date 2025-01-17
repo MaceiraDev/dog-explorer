@@ -1,0 +1,13 @@
+<section class="container">
+  <div class="has-text-centered">
+    <h1 class="has-text-primary is-size-1 capitalize">Selecione uma Raça</h1>
+    <hr class="has-background-primary" />
+  </div>
+  <div class="grid">
+    @for (item of categorias; track $index) {
+    <button class="btn-raca" (click)="navegarParaDetalhes(item.nome)">
+      {{item.nome}}
+    </button>
+    }
+  </div>
+</section>

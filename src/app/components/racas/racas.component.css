@@ -1,0 +1,16 @@
+.btn-raca {
+  text-align: center;
+  color: #fff;
+  margin: 5px;
+  transition: all 0.5s;
+}
+
+.btn-raca:hover {
+  color: hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l)) !important;
+}
+
+@media (max-width: 1023px) {
+  .container {
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,75 @@
+<section class="hero has-background-black-ter is-fullheight-with-navbar">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1 class="title">Bem-vindo ao Dog Explorer 🐾</h1>
+      <h2 class="subtitle">
+        Descubra raças incríveis e explore imagens adoráveis de cães!
+      </h2>
+      <div class="buttons is-centered">
+        <a routerLink="/racas" class="button is-primary is-large">
+          <span>Explorar Raças</span>
+        </a>
+        <a routerLink="/sobre" class="button is-light is-large">
+          <span>Saiba Mais</span>
+        </a>
+      </div>
+      <div class="buttons is-centered">
+        <a class="button is-warning is-large" (click)="getRandomImg()">
+          <span>Descubra uma Imagem Aleatória</span>
+        </a>
+      </div>
+      @if (imagem) {
+      <div class="mt-5">
+        <div class="card-img">
+          <img src="{{imagem.message}}" />
+        </div>
+      </div>
+      }
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <h2 class="title has-text-centered">Como Funciona?</h2>
+    <div class="columns is-multiline">
+      <div class="column is-one-third">
+        <article class="message is-primary">
+          <div class="message-header">
+            <p>Raças</p>
+          </div>
+          <div class="message-body">
+            Explore uma lista completa de raças de cães e encontre sua favorita.
+          </div>
+        </article>
+      </div>
+      <div class="column is-one-third">
+        <article class="message has-background-black-ter">
+          <div class="message-header">
+            <p>Detalhes</p>
+          </div>
+          <div class="message-body" style="  padding-bottom: 44px;">
+            Veja as imagens sobre cada raça.
+          </div>
+        </article>
+      </div>
+      <div class="column is-one-third">
+        <article class="message is-primary">
+          <div class="message-header">
+            <p>Sobre</p>
+          </div>
+          <div class="message-body">
+            Descubra mais sobre o criador e o objetivo do projeto.
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section has-background-black-ter">
+  <div class="container has-text-centered">
+    <h2 class="title">Pronto para explorar?</h2>
+    <a routerLink="/racas" class="button is-primary is-medium">
+      Começar Agora
+    </a>
+  </div>
+</section>

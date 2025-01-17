@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bulma-scheme-main);
+  min-height: 100vh;
+}
+
+input {
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bulma-scheme-main);
+}
