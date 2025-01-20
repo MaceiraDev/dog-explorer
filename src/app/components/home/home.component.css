@@ -8,5 +8,13 @@
 @media (max-width: 1023px) {
   .container {
     padding: 1rem;
+    height: auto;
+  }
+
+  .btn-css {
+    width: 100%;
+  }
+  .btn-css span{
+    font-size: 12pt;
   }
 }

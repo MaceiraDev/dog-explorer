@@ -17,3 +17,7 @@ header {
   font-family: "Poppins", sans-serif;
   background-color: var(--bulma-scheme-main);
 }
+
+footer {
+  font-family: "Poppins", sans-serif;
+}

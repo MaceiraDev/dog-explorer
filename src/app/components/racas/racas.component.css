@@ -1,3 +1,6 @@
+.container{
+  height: 100vh;
+}
 .btn-raca {
   text-align: center;
   color: #fff;
@@ -12,5 +15,6 @@
 @media (max-width: 1023px) {
   .container {
     padding: 1rem;
+    height: auto;
   }
 }

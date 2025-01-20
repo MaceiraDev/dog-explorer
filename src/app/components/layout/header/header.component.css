@@ -6,6 +6,9 @@
 .navbar-item:hover {
   color: hsl(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l)) !important;
 }
+.logo{
+  cursor: default;
+}
 @media (max-width: 1023px) {
   .navbar-start {
     text-align: center;

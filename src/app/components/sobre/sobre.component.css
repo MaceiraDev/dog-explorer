@@ -1,3 +1,6 @@
+.container{
+  height: 100vh;
+}
 .content {
   color: #fff;
   text-align: justify;
@@ -42,5 +45,6 @@ a {
 @media (max-width: 1023px) {
   .container {
     padding: 1rem;
+    height: auto;
   }
 }
